@@ -1,0 +1,607 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0912.2314                               -->
+<workbook original-version='18.1' source-build='2025.2.3 (20252.25.0912.2314)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <DataOrientationSidePane />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Vacation Rentals' inline='true' name='federated.1edl2mt0jkvoek1c7jq9m1fkzcqa' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Vacation Rentals' name='textscan.056jcpg0qrj55w1ank8ge103ru1l'>
+            <connection class='textscan' directory='C:/Users/mailg/Documents/GitHub/DAVM/Dataset' filename='Vacation Rentals.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.056jcpg0qrj55w1ank8ge103ru1l' name='Vacation Rentals.csv' table='[Vacation Rentals#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Rental Property' ordinal='0' />
+            <column datatype='string' name='First' ordinal='1' />
+            <column datatype='string' name='Last' ordinal='2' />
+            <column datatype='string' name='Start' ordinal='3' />
+            <column datatype='string' name='End' ordinal='4' />
+            <column datatype='integer' name='Discount' ordinal='5' />
+            <column datatype='integer' name='Rent' ordinal='6' />
+            <column datatype='integer' name='Tax per Night' ordinal='7' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Vacation Rentals.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rental Property</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Rental Property]</local-name>
+            <parent-name>[Vacation Rentals.csv]</parent-name>
+            <remote-alias>Rental Property</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Vacation Rentals.csv_306B0D7450394E569B91A0FF8F082655]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>First</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[First]</local-name>
+            <parent-name>[Vacation Rentals.csv]</parent-name>
+            <remote-alias>First</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Vacation Rentals.csv_306B0D7450394E569B91A0FF8F082655]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Last</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Last]</local-name>
+            <parent-name>[Vacation Rentals.csv]</parent-name>
+            <remote-alias>Last</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Vacation Rentals.csv_306B0D7450394E569B91A0FF8F082655]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Start</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Start]</local-name>
+            <parent-name>[Vacation Rentals.csv]</parent-name>
+            <remote-alias>Start</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Vacation Rentals.csv_306B0D7450394E569B91A0FF8F082655]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>End</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[End]</local-name>
+            <parent-name>[Vacation Rentals.csv]</parent-name>
+            <remote-alias>End</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Vacation Rentals.csv_306B0D7450394E569B91A0FF8F082655]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Discount</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Discount]</local-name>
+            <parent-name>[Vacation Rentals.csv]</parent-name>
+            <remote-alias>Discount</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Vacation Rentals.csv_306B0D7450394E569B91A0FF8F082655]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rent</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rent]</local-name>
+            <parent-name>[Vacation Rentals.csv]</parent-name>
+            <remote-alias>Rent</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Vacation Rentals.csv_306B0D7450394E569B91A0FF8F082655]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tax per Night</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tax per Night]</local-name>
+            <parent-name>[Vacation Rentals.csv]</parent-name>
+            <remote-alias>Tax per Night</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Vacation Rentals.csv_306B0D7450394E569B91A0FF8F082655]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Full Name' datatype='string' name='[Calculation_1596244660311605248]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[First]+[Last]' />
+      </column>
+      <column caption='Floor' datatype='string' name='[Calculation_1596244660312674306]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF LEFT([Rental Property - Split 1],1)=&quot;1&quot; then &quot;First Floor&quot; ELSE &quot;Second Floor&quot; END' />
+      </column>
+      <column caption='Discount %' datatype='real' name='[Calculation_1596244660318081027]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Discount])/SUM([Rent])' />
+      </column>
+      <column aggregation='Count' caption='Start Date' datatype='date' datatype-customized='true' name='[Calculation_1596244660320272388]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='DATE(DATEPARSE ( &quot;dd-MMM-yyyy&quot;, [Start]+&quot;-&quot;+&quot;2025&quot; )) ' />
+      </column>
+      <column aggregation='Count' caption='End Date' datatype='date' datatype-customized='true' name='[Calculation_1596244660320419845]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='DATE(DATEPARSE ( &quot;dd-MMM-yyyy&quot;, [End]+&quot;-&quot;+&quot;2025&quot; )) ' />
+      </column>
+      <column caption='Duration' datatype='integer' name='[Calculation_1596244660321185798]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='DATEDIFF(&apos;day&apos;, [Calculation_1596244660320272388], [Calculation_1596244660320419845])' />
+      </column>
+      <column caption='Building' datatype='string' name='[Rental Property - Split 11]' role='dimension' type='nominal' user:SplitFieldIndex='11' user:SplitFieldOrigin='[federated.1edl2mt0jkvoek1c7jq9m1fkzcqa].[Rental Property]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Rental Property], &quot;-&quot;, 2 ) )' />
+      </column>
+      <column caption='Room Number' datatype='string' name='[Rental Property - Split 1]' role='dimension' type='nominal' user:SplitFieldIndex='1' user:SplitFieldOrigin='[federated.1edl2mt0jkvoek1c7jq9m1fkzcqa].[Rental Property]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Rental Property], &quot;-&quot;, 1 ) )' />
+      </column>
+      <column caption='Vacation Rentals.csv' datatype='table' name='[__tableau_internal_object_id__].[Vacation Rentals.csv_306B0D7450394E569B91A0FF8F082655]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Vacation Rentals.csv' id='Vacation Rentals.csv_306B0D7450394E569B91A0FF8F082655'>
+            <properties context=''>
+              <relation connection='textscan.056jcpg0qrj55w1ank8ge103ru1l' name='Vacation Rentals.csv' table='[Vacation Rentals#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Rental Property' ordinal='0' />
+                  <column datatype='string' name='First' ordinal='1' />
+                  <column datatype='string' name='Last' ordinal='2' />
+                  <column datatype='string' name='Start' ordinal='3' />
+                  <column datatype='string' name='End' ordinal='4' />
+                  <column datatype='integer' name='Discount' ordinal='5' />
+                  <column datatype='integer' name='Rent' ordinal='6' />
+                  <column datatype='integer' name='Tax per Night' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Vacation Rentals' name='federated.1edl2mt0jkvoek1c7jq9m1fkzcqa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1edl2mt0jkvoek1c7jq9m1fkzcqa'>
+            <column caption='Floor' datatype='string' name='[Calculation_1596244660312674306]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF LEFT([Rental Property - Split 1],1)=&quot;1&quot; then &quot;First Floor&quot; ELSE &quot;Second Floor&quot; END' />
+            </column>
+            <column caption='Discount %' datatype='real' name='[Calculation_1596244660318081027]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Discount])/SUM([Rent])' />
+            </column>
+            <column datatype='integer' name='[Discount]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Rent]' role='measure' type='quantitative' />
+            <column caption='Building' datatype='string' name='[Rental Property - Split 11]' role='dimension' type='nominal' user:SplitFieldIndex='11' user:SplitFieldOrigin='[federated.1edl2mt0jkvoek1c7jq9m1fkzcqa].[Rental Property]'>
+              <calculation class='tableau' formula='TRIM( SPLIT( [Rental Property], &quot;-&quot;, 2 ) )' />
+            </column>
+            <column caption='Room Number' datatype='string' name='[Rental Property - Split 1]' role='dimension' type='nominal' user:SplitFieldIndex='1' user:SplitFieldOrigin='[federated.1edl2mt0jkvoek1c7jq9m1fkzcqa].[Rental Property]'>
+              <calculation class='tableau' formula='TRIM( SPLIT( [Rental Property], &quot;-&quot;, 1 ) )' />
+            </column>
+            <column datatype='string' name='[Rental Property]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1596244660312674306]' derivation='None' name='[none:Calculation_1596244660312674306:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Rental Property - Split 11]' derivation='None' name='[none:Rental Property - Split 11:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1596244660318081027]' derivation='User' name='[usr:Calculation_1596244660318081027:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.1edl2mt0jkvoek1c7jq9m1fkzcqa].[none:Calculation_1596244660312674306:nk] * [federated.1edl2mt0jkvoek1c7jq9m1fkzcqa].[usr:Calculation_1596244660318081027:qk])</rows>
+        <cols>[federated.1edl2mt0jkvoek1c7jq9m1fkzcqa].[none:Rental Property - Split 11:nk]</cols>
+      </table>
+      <simple-id uuid='{7362D7C0-8F9D-4324-A346-DF2FFB00F134}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Vacation Rentals' name='federated.1edl2mt0jkvoek1c7jq9m1fkzcqa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1edl2mt0jkvoek1c7jq9m1fkzcqa'>
+            <column aggregation='Count' caption='Start Date' datatype='date' datatype-customized='true' name='[Calculation_1596244660320272388]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE(DATEPARSE ( &quot;dd-MMM-yyyy&quot;, [Start]+&quot;-&quot;+&quot;2025&quot; )) ' />
+            </column>
+            <column aggregation='Count' caption='End Date' datatype='date' datatype-customized='true' name='[Calculation_1596244660320419845]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE(DATEPARSE ( &quot;dd-MMM-yyyy&quot;, [End]+&quot;-&quot;+&quot;2025&quot; )) ' />
+            </column>
+            <column caption='Duration' datatype='integer' name='[Calculation_1596244660321185798]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEDIFF(&apos;day&apos;, [Calculation_1596244660320272388], [Calculation_1596244660320419845])' />
+            </column>
+            <column datatype='string' name='[End]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Start]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1596244660320272388]' derivation='None' name='[none:Calculation_1596244660320272388:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_1596244660320419845]' derivation='None' name='[none:Calculation_1596244660320419845:nk]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_1596244660321185798]' derivation='Sum' name='[sum:Calculation_1596244660321185798:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1edl2mt0jkvoek1c7jq9m1fkzcqa].[none:Calculation_1596244660320272388:ok]' value='188' />
+            <format attr='width' field='[federated.1edl2mt0jkvoek1c7jq9m1fkzcqa].[none:Calculation_1596244660320419845:nk]' value='204' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1edl2mt0jkvoek1c7jq9m1fkzcqa].[sum:Calculation_1596244660321185798:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1edl2mt0jkvoek1c7jq9m1fkzcqa].[none:Calculation_1596244660320272388:ok] / [federated.1edl2mt0jkvoek1c7jq9m1fkzcqa].[none:Calculation_1596244660320419845:nk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{D7743486-F518-4EBC-8334-554C12CF0164}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1edl2mt0jkvoek1c7jq9m1fkzcqa].[none:Calculation_1596244660311605248:nk]</field>
+            <field>[federated.1edl2mt0jkvoek1c7jq9m1fkzcqa].[none:Calculation_1596244660312674306:nk]</field>
+            <field>[federated.1edl2mt0jkvoek1c7jq9m1fkzcqa].[none:Rental Property - Split 11:nk]</field>
+            <field>[federated.1edl2mt0jkvoek1c7jq9m1fkzcqa].[none:Rental Property - Split 1:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3A12A0AF-0195-48B6-BBB5-5C22C0E548DA}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1edl2mt0jkvoek1c7jq9m1fkzcqa].[none:Calculation_1596244660320419845:ok]</field>
+            <field>[federated.1edl2mt0jkvoek1c7jq9m1fkzcqa].[yr:Calculation_1596244660320419845:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6785CBE3-77A8-4D4D-BE1E-D72221521872}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='124' name='Sheet 2' width='192'>
+      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
+      AABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+  <data-orientation>
+    <data-orientation-item>
+      <simple-id uuid='{D7743486-F518-4EBC-8334-554C12CF0164}' />
+      <desc>Appended 2025 to string date, changed to date type, Calculated Duration</desc>
+    </data-orientation-item>
+    <data-orientation-item>
+      <simple-id uuid='{7362D7C0-8F9D-4324-A346-DF2FFB00F134}' />
+      <desc>Concatenate Name + Split Coloumn Address + Calculated field of Floor + Discount %</desc>
+    </data-orientation-item>
+  </data-orientation>
+</workbook>
